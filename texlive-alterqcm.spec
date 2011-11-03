@@ -1,3 +1,9 @@
+# revision 23385
+# category Package
+# catalog-ctan /macros/latex/contrib/alterqcm
+# catalog-date 2011-06-06 00:10:59 +0200
+# catalog-license lppl
+# catalog-version 3.7c
 Name:		texlive-alterqcm
 Version:	3.7c
 Release:	1
@@ -77,6 +83,7 @@ questionnaires in two-column tables.
 %doc %{_texmfdistdir}/doc/latex/alterqcm/latex/doc-aq-points.tex
 %doc %{_texmfdistdir}/doc/latex/alterqcm/latex/doc-aq-problem.tex
 %doc %{_texmfdistdir}/doc/latex/alterqcm/latex/doc_aq-main.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -87,3 +94,5 @@ questionnaires in two-column tables.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

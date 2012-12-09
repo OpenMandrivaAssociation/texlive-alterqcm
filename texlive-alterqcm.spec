@@ -84,3 +84,18 @@ questionnaires in two-column tables.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.7c-2
++ Revision: 749164
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.7c-1
++ Revision: 717816
+- texlive-alterqcm
+- texlive-alterqcm
+- texlive-alterqcm
+- texlive-alterqcm
+- texlive-alterqcm
+

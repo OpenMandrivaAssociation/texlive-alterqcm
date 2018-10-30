@@ -6,7 +6,7 @@
 # catalog-version 3.7c
 Name:		texlive-alterqcm
 Version:	3.7c
-Release:	10
+Release:	11
 Summary:	Multiple choice questionnaires in two column tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alterqcm

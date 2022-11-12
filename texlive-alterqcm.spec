@@ -5,8 +5,8 @@ Summary:	Multiple choice questionnaires in two column tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alterqcm
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alterqcm.r59265.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alterqcm.doc.r59265.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alterqcm.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alterqcm.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

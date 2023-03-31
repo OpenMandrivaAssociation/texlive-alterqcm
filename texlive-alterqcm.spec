@@ -1,6 +1,6 @@
 Name:		texlive-alterqcm
 Version:	59265
-Release:	1
+Release:	2
 Summary:	Multiple choice questionnaires in two column tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alterqcm
